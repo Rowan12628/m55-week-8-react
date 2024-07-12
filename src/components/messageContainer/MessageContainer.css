@@ -1,0 +1,8 @@
+.wrapper {
+  width: 25%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid green;
+}
