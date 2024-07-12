@@ -2,6 +2,8 @@ import { useContext, useState } from "react";
 
 import { MessageContext } from "../../providers/messageProvider/MessageProvider";
 
+import { changeHandler } from "../../utils/helpers";
+
 import "./MessageContainer.css";
 
 const MessageContainer = () => {
