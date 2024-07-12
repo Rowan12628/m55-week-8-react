@@ -11,9 +11,6 @@ const MessageContainer = () => {
 
   const { message, updateMessage } = useContext(MessageContext);
 
-  const changeHandler = (e, setter) => {
-    setter(e.target.value);
-  };
   return (
     <div className="wrapper">
       <h3>Change the Message</h3>
