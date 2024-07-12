@@ -1,12 +1,14 @@
-import { useState } from "react";
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+import Layout from "./components/layout/Layout";
+import MainContainer from "./components/mainContainer/MainContainer";
 
+function App() {
   return (
     <>
-      <div>Hello world</div>
+      <Layout>
+        <MainContainer />
+      </Layout>
     </>
   );
 }
